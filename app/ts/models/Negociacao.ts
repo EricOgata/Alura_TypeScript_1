@@ -1,4 +1,4 @@
-class Negociacao {
+export class Negociacao {
 
     // Toda classe em EC6 deve possuir um constructor
     constructor(private _data: Date, private _quantidade: number, private _valor: number){}

@@ -1,5 +1,8 @@
+import { MensagemView, NegociacoesView } from '../views/index';
+import { Negociacao, Negociacoes } from '../models/index';
+
 // Arquivo responsável por interagir com o usuário, capturando as informações
-class NegociacaoController {
+export class NegociacaoController {
 
     private _inputData: JQuery;
     private _inputQuantidade: JQuery;

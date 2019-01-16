@@ -1,4 +1,7 @@
 // App que irá realizar o teste
+
+import { NegociacaoController } from './controllers/NegociacaoController';
+
 const controller = new NegociacaoController();
 
 // configurando o documento.

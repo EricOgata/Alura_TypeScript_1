@@ -3,7 +3,9 @@
         "target": "es6",// Versão do ES que o código será traduzido.
         "outDir": "app/js", // Diretório aonde será colocado o resultado da compilação do seu código.
         "noEmitOnError": true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module": "system"
     },
     "include": [
         "app/ts/**/*" // Indica quais arquivos serão levados em consideração durante a compilação.
